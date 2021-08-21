@@ -7,14 +7,13 @@ function Nav() {
     
     return (
         <nav>
-            <div className="flex bg-premier-league-purple justify-center py-3 text-sm uppercase text-gray-200 font-sans space-x-12 sm:space-x-24">
+            <div className="flex bg-premier-league-purple justify-center text-sm uppercase text-gray-200 font-sans">
                 {/* TODO: Need the hover PL BG color */}
-                {/* TODO: Hover should fill entire box, not just around letters */}
                 {/* TODO: Bottom border color = white when active */}
                 {pages.map(page => 
-                    <h2
+                    <div
                     onClick={() => router.push(`?page=${page}`)}
-                    key={page} className="cursor-pointer hover:text-white hover:bg-red-500">{page}</h2>
+                    key={page} className="cursor-pointer flex items-center justify-center w-40 h-12 align-text-middle hover:text-white hover:bg-red-500">{page}</div>
                 )}
             </div>
         </nav>
