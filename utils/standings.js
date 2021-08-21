@@ -1,0 +1,222 @@
+export default [
+    {
+        "team": "liverpool",
+        "points": 6,
+        "games played": 2,
+        "wins": 2,
+        "draws": 0,
+        "losses": 0,
+        "goals for": 5,
+        "goals against": 0,
+        "goal difference": 5
+    },
+    {
+        "team": "manchester united",
+        "points": 3,
+        "games played": 1,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "goals for": 5,
+        "goals against": 1,
+        "goal difference": 4
+    },
+    {
+        "team": "chelsea",
+        "points": 3,
+        "games played": 1,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "goals for": 3,
+        "goals against": 0,
+        "goal difference": 3
+    },
+    {
+        "team": "west ham",
+        "points": 3,
+        "games played": 1,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "goals for": 4,
+        "goals against": 2,
+        "goal difference": 2
+    },
+    {
+        "team": "everton",
+        "points": 3,
+        "games played": 1,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "goals for": 3,
+        "goals against": 1,
+        "goal difference": 2
+    },
+    {
+        "team": "brentford",
+        "points": 3,
+        "games played": 1,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "goals for": 2,
+        "goals against": 0,
+        "goal difference": 2
+    },
+    {
+        "team": "watford",
+        "points": 3,
+        "games played": 1,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "goals for": 3,
+        "goals against": 2,
+        "goal difference": 1
+    },
+    {
+        "team": "brighton",
+        "points": 3,
+        "games played": 1,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "goals for": 2,
+        "goals against": 1,
+        "goal difference": 1
+    },
+    {
+        "team": "leicester city",
+        "points": 3,
+        "games played": 1,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "goals for": 1,
+        "goals against": 0,
+        "goal difference": 1
+    },
+    {
+        "team": "tottenham",
+        "points": 3,
+        "games played": 1,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "goals for": 1,
+        "goals against": 0,
+        "goal difference": 1
+    },
+    {
+        "team": "aston villa",
+        "points": 0,
+        "games played": 1,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "goals for": 2,
+        "goals against": 3,
+        "goal difference":-1
+    },
+    {
+        "team": "manchester city",
+        "points": 0,
+        "games played": 1,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "goals for": 0,
+        "goals against": 1,
+        "goal difference":-1
+    },
+    {
+        "team": "wolves",
+        "points": 0,
+        "games played": 1,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "goals for": 0,
+        "goals against": 1,
+        "goal difference":-1
+    },
+    {
+        "team": "newcastle",
+        "points": 0,
+        "games played": 1,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "goals for": 2,
+        "goals against": 4,
+        "goal difference":-2
+    },
+    {
+        "team": "southampton",
+        "points": 0,
+        "games played": 1,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "goals for": 1,
+        "goals against": 3,
+        "goal difference":-2
+    },
+    {
+        "team": "arsenal",
+        "points": 0,
+        "games played": 1,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "goals for": 0,
+        "goals against": 2,
+        "goal difference":-2
+    },
+    {
+        "team": "burnley",
+        "points": 0,
+        "games played": 2,
+        "wins": 0,
+        "draws": 0,
+        "losses": 2,
+        "goals for": 1,
+        "goals against": 4,
+        "goal difference":-3
+    },
+    {
+        "team": "crystal palace",
+        "points": 0,
+        "games played": 1,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "goals for": 0,
+        "goals against": 3,
+        "goal difference":-3
+    },
+    {
+        "team": "norwich city",
+        "points": 0,
+        "games played": 1,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "goals for": 0,
+        "goals against": 3,
+        "goal difference":-3
+    },
+    {
+        "team": "leeds united",
+        "points": 0,
+        "games played": 1,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "goals for": 1,
+        "goals against": 5,
+        "goal difference":-4
+    }
+]
