@@ -3,7 +3,7 @@ import { useRouter } from 'next/router'
 import Matches from "./Matches"
 import News from "./News"
 import Players from "./Players"
-import Standings from "./Standings"
+import Standings from "./standings/Standings"
 import Stats from "./Stats"
 
 
