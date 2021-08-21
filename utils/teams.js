@@ -4,7 +4,7 @@ export default {
         long_name: "Arsenal F.C.",
         logo: "arsenal.png" 
     },
-    "aston-villa": {
+    "aston villa": {
         name: "Aston Villa",
         long_name: "Aston Villa F.C.",
         logo: "aston-villa.png"
@@ -29,7 +29,7 @@ export default {
         long_name: "Chelsea F.C.",
         logo: "chelsea.png"
     },
-    "crystal-palace": {
+    "crystal palace": {
         name: "Crystal Palace",
         long_name: "Crystal Palace F.C.",
         logo: "crystal-palace.png"
@@ -39,12 +39,12 @@ export default {
         long_name: "Everton F.C.",
         logo: "everton.png"
     },
-    "leeds": {
+    "leeds united": {
         name: "Leeds United",
         long_name: "Leeds United F.C.",
         logo: "leeds-united.png"
     },
-    "leicester-city": {
+    "leicester city": {
         name: "Leicester City",
         long_name: "Leicester City F.C.",
         logo: "leicester-city.png"
@@ -54,12 +54,12 @@ export default {
         long_name: "Liverpool F.C.",
         logo: "liverpool.png"
     },
-    "manchester-city": {
+    "manchester city": {
         name: "Manchester City",
         long_name: "Manchester City F.C.",
         logo: "manchester-city.png"
     },
-    "manchester-united": {
+    "manchester united": {
         name: "Manchester United",
         long_name: "Manchester United F.C.",
         logo: "manchester-united.png"
@@ -69,7 +69,7 @@ export default {
         long_name: "Newcastle F.C.",
         logo: "newcastle.png"
     },
-    "norwich-city": {
+    "norwich city": {
         name: "norwich-city",
         long_name: "norwich-city F.C.",
         logo: "norwich-city.png"
@@ -89,7 +89,7 @@ export default {
         long_name: "Watford F.C.",
         logo: "watford.png"
     },
-    "west-ham": {
+    "west ham": {
         name: "West Ham",
         long_name: "West Ham United F.C.",
         logo: "west-ham.png"
@@ -100,5 +100,3 @@ export default {
         logo: "wolves.png"
     }    
 }
-
-_
