@@ -1,4 +1,4 @@
-import { useLocation } from 'react-router-dom';
+import { useRouter } from 'next/router'
 
 import Matches from "./Matches"
 import News from "./News"
@@ -7,26 +7,22 @@ import Standings from "./Standings"
 import Stats from "./Stats"
 
 
-// A custom hook that builds on useLocation to parse
-// the query string for you.
-// Source: https://reactrouter.com/web/example/query-parameters
-function useQuery() {
-    return new URLSearchParams(useLocation().search);
-}
-
 export default function ActivePage() {
-    let active_page = "MATCHES";
+    // Reads query params via router: ?page=standings
+    const router = useRouter()
+    const active_page = router.query.page;
+
     // Conditional Rendering. Better way?
     // Source: https://reactjs.org/docs/conditional-rendering.html
-    if (active_page == "STANDINGS") {
+    if (active_page == "standings") {
         return <Standings />
-    } else if (active_page == "MATCHES") {
+    } else if (active_page == "matches") {
         return <Matches />
-    } else if (active_page == "PLAYERS") {
+    } else if (active_page == "players") {
         return <Players />
-    } else if (active_page == "STATS") {
+    } else if (active_page == "stats") {
         return <Stats />
-    } else if (active_page == "NEWS") {
+    } else if (active_page == "news") {
         return <News />
     }
 }
