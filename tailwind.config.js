@@ -7,6 +7,15 @@ module.exports = {
       colors: {
         // Used in Google's Premier League page
         'premier-league-purple': '#3F1052',
+        'standings-header-gray': '#70757A',
+        'standings-border-gray': '#F5F5F5'
+      },
+      minWidth: {
+        '32': '32px',
+        '321': '321px',
+      },
+      fontFamily: {
+        'sans': ['Roboto', 'Helvetica', 'Arial', 'sans-serif']
       }
     }
   },
