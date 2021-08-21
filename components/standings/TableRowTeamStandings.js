@@ -6,7 +6,7 @@ function TableRowTeamStandings({standings, team_rank}) {
     console.log(standings);
     const team_data = teams[standings.team];
     return (
-        <div className="flex flex-row bg-white h-10 border-t border-b border-standings-border-gray">
+        <div className="grid grid-cols-11 bg-white h-10 border-t border-b border-standings-border-gray">
             <div>{team_rank + 1}</div>
             <div className="min-w-321">
                 <Image
