@@ -17,7 +17,7 @@ export default {
     "brighton": {
         name: "Brighton",
         long_name: "Brighton & Hove Albion F.C.",
-        logo: "https://ssl.gstatic.com/onebox/media/sports/logos/EKIe0e-ZIphOcfQAwsuEEQ_48x48.png"
+        logo: "brighton.png"
     },
     "burnley": {
         name: "Burnley",
