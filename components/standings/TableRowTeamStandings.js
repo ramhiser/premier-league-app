@@ -6,27 +6,27 @@ function TableRowTeamStandings({standings, team_rank}) {
     console.log(standings);
     const team_data = teams[standings.team];
     return (
-        <tr className="bg-white h-10 border-t border-b border-standings-border-gray">
-            <td>{team_rank + 1}</td>
-            <td className="align-text-middle">
+        <div className="flex flex-row bg-white h-10 border-t border-b border-standings-border-gray">
+            <div>{team_rank + 1}</div>
+            <div className="min-w-321">
                 <Image
                     src={`/logos/${team_data.logo}`}
                     height={24}
                     width={24}
                 />
                 {team_data.name}
-            </td>
-            <td>{standings.matches_played}</td>
-            <td>{standings.wins}</td>
-            <td>{standings.draws}</td>
-            <td>{standings.losses}</td>
-            <td>{standings.goals_for}</td>
-            <td>{standings.goals_against}</td>
-            <td>{standings.goal_difference}</td>
-            <td>{standings.points}</td>
+            </div>
+            <div>{standings.matches_played}</div>
+            <div>{standings.wins}</div>
+            <div>{standings.draws}</div>
+            <div>{standings.losses}</div>
+            <div>{standings.goals_for}</div>
+            <div>{standings.goals_against}</div>
+            <div>{standings.goal_difference}</div>
+            <div>{standings.points}</div>
             {/* TODO: Last 5 matches */}
-            <td></td>
-        </tr>
+            <div></div>
+        </div>
     )
 }
 
