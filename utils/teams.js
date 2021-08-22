@@ -70,7 +70,7 @@ export default {
         logo: "newcastle.png"
     },
     "norwich city": {
-        name: "norwich-city",
+        name: "Norwich City",
         long_name: "norwich-city F.C.",
         logo: "norwich-city.png"
     },
