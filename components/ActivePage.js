@@ -27,7 +27,7 @@ export default function ActivePage() {
     }
 
     return (
-        <div className="bg-red-500">
+        <div id="active-page">
             {SelectedPage}
         </div>
     )

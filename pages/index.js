@@ -6,8 +6,7 @@ import Nav from '../components/Nav'
 
 export default function Home() {
   return (
-    <div className="">
-
+    <div>
       <Head>
         <title>Premier League</title>
         <link rel="icon" href="/favicon.ico" />
@@ -15,11 +14,7 @@ export default function Home() {
 
       <Header />
       <Nav />
-
-      {/* 1:33 */}
       <ActivePage />
-
-      {/* Results */}
     </div>
   )
 }
