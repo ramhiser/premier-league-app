@@ -12,19 +12,23 @@ export default function ActivePage() {
     const router = useRouter()
     const active_page = router.query.page;
 
-    // TODO: Add background color in div here
-
-    // Conditional Rendering. Better way?
-    // Source: https://reactjs.org/docs/conditional-rendering.html
-    if (active_page == "matches") {
-        return <Matches />
-    } else if (active_page == "players") {
-        return <Players />
-    } else if (active_page == "stats") {
-        return <Stats />
-    } else if (active_page == "news") {
-        return <News />
-    } else { //if (active_page == "standings") {
-        return <Standings />
+    let SelectedPage;
+    switch(active_page) {
+        case "matches":
+            SelectedPage = <Matches />
+        case "players":
+            SelectedPage = <Players />
+        case "stats":
+            SelectedPage = <Stats />
+        case "news":
+            SelectedPage = <News />
+        default:
+            SelectedPage = <Standings />
     }
+
+    return (
+        <div className="bg-red-500">
+            {SelectedPage}
+        </div>
+    )
 }

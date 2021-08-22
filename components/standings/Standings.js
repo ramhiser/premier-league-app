@@ -6,7 +6,7 @@ import TableSeasonStandings from "./TableSeasonStandings";
 
 function Standings() {
     return (
-        <div className="w-1/2 flex flex-col">
+        <div className="w-1/2 flex flex-col justify-center">
             <div>
                 <DropdownSeasons />
             </div>
