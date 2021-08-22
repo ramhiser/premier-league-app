@@ -1,14 +1,14 @@
 import season_standings from "../../utils/season-standings";
+import DropdownSeasons from "./DropdownSeasons"
 import TableSeasonStandings from "./TableSeasonStandings";
 
 // import Table from 'react';
 
 function Standings() {
     return (
-        <div>
+        <div className="w-1/2 flex flex-col">
             <div>
-                {/* TODO: Dropdown to choose season */}
-                Season: 2021-2022
+                <DropdownSeasons />
             </div>
             <TableSeasonStandings standings={season_standings} />
         </div>
